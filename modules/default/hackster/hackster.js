@@ -1,17 +1,17 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: HelloWorld
+ * Module: Hackster
  *
- * By Michael Teeuw http://michaelteeuw.nl
+ * By Paul Langdon
  * MIT Licensed.
  */
 
-Module.register("helloworld",{
+Module.register("hackster",{
 
 	// Default module config.
 	defaults: {
-		text: "Hello World!"
+		text: "Hackster Rocks!"
 	},
 
 	// Override dom generator.

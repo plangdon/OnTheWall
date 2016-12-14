@@ -27,7 +27,7 @@ ARM=$(uname -m)
 #Check the Raspberry Pi version.
 if [ "$ARM" != "armv7l" ]; then
 	echo -e "\e[91mSorry, your Raspberry Pi is not supported."
-	echo -e "\e[91mPlease run MagicMirror on a Raspberry Pi 2 or 3."
+	echo -e "\e[91mPlease run OnTheWall on a Raspberry Pi 2 or 3."
 	echo -e "\e[91mIf this is a Pi Zero, you are in the same boat as the original Raspberry Pi. You must run in server only mode."
 	exit;
 fi
@@ -91,7 +91,7 @@ if [ -d "$HOME/OnTheWall" ] ; then
 	echo -e "To prevent overwriting, the installer will be aborted."
 	echo -e "Please rename the \e[1m~/OnTheWall\e[0m\e[93m folder and try again.\e[0m"
 	echo ""
-	echo -e "If you want to upgrade your installation run \e[1m\e[97mgit pull\e[0m from the ~/MagicMirror directory."
+	echo -e "If you want to upgrade your installation run \e[1m\e[97mgit pull\e[0m from the ~/OnTheWall directory."
 	echo ""
 	exit;
 fi

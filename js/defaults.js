@@ -21,7 +21,7 @@ var defaults = {
 			position: "upper_third",
 			classes: "large thin",
 			config: {
-				text: "Magic Mirror<sup>2</sup>"
+				text: "MM<sup>2</sup> On The Wall"
 			}
 		},
 		{
@@ -52,7 +52,7 @@ var defaults = {
 			position: "bottom_bar",
 			classes: "xsmall dimmed",
 			config: {
-				text: "www.michaelteeuw.nl"
+				text: "www.hackster.io"
 			}
 		},
 	],

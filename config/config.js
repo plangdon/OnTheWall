@@ -4,7 +4,6 @@
  * MIT Licensed.
  */
 
-
 var config = {
 	port: 8080,
 
@@ -34,7 +33,7 @@ var config = {
 			}
 		},
 		{
-			module: 'hackster',
+			module: 'compliments',
 			position: 'lower_third'
 		},
 		{

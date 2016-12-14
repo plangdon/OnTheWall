@@ -318,7 +318,7 @@ var MM = (function() {
 		 * Main init method.
 		 */
 		init: function() {
-			Log.info("Initializing MagicMirror.");
+			Log.info("Initializing MagicMirror - OnTheWall.");
 			loadConfig();
 			Translator.loadCoreTranslations(config.language);
 			Loader.loadModules();

@@ -86,25 +86,25 @@ fi
 
 #Install magic mirror
 cd ~
-if [ -d "$HOME/MagicMirror" ] ; then
-	echo -e "\e[93mIt seems like MagicMirror is already installed."
+if [ -d "$HOME/OnTheWall" ] ; then
+	echo -e "\e[93mIt seems like OnTheWall is already installed."
 	echo -e "To prevent overwriting, the installer will be aborted."
-	echo -e "Please rename the \e[1m~/MagicMirror\e[0m\e[93m folder and try again.\e[0m"
+	echo -e "Please rename the \e[1m~/OnTheWall\e[0m\e[93m folder and try again.\e[0m"
 	echo ""
 	echo -e "If you want to upgrade your installation run \e[1m\e[97mgit pull\e[0m from the ~/MagicMirror directory."
 	echo ""
 	exit;
 fi
 
-echo -e "\e[96mCloning MagicMirror ...\e[90m"
+echo -e "\e[96mCloning OnTheWall ...\e[90m"
 if git clone https://github.com/plangdon/OnTheWall.git; then
-	echo -e "\e[92mCloning MagicMirror Done!\e[0m"
+	echo -e "\e[92mCloning OnTheWall Done!\e[0m"
 else
-	echo -e "\e[91mUnable to clone MagicMirror."
+	echo -e "\e[91mUnable to clone OnTheWall."
 	exit;
 fi
 
-cd ~/MagicMirror  || exit
+cd ~/OnTheWall  || exit
 echo -e "\e[96mInstalling dependencies ...\e[90m"
 if npm install; then
 	echo -e "\e[92mDependencies installation Done!\e[0m"
@@ -114,6 +114,6 @@ else
 fi
 
 echo " "
-echo -e "\e[92mWe're ready! Run \e[1m\e[97mDISPLAY=:0 npm start\e[0m\e[92m from the ~/MagicMirror directory to start your MagicMirror.\e[0m"
+echo -e "\e[92mWe're ready! Run \e[1m\e[97mDISPLAY=:0 npm start\e[0m\e[92m from the ~/OnTheWall directory to start your OnTheWall.\e[0m"
 echo " "
 echo " "

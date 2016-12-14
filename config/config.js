@@ -33,7 +33,7 @@ var config = {
 			}
 		},
 		{
-			module: 'compliments',
+			module: 'hackster',
 			position: 'lower_third'
 		},
 		{

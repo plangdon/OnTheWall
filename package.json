@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichMich/MagicMirror.git"
+    "url": "git+https://github.com/plangdon/OnTheWall.git"
   },
   "keywords": [
     "magic mirror",
@@ -37,7 +37,7 @@
     "time-grunt": "latest"
   },
   "dependencies": {
-    "electron-prebuilt": "latest",
+    "electron": "latest",
     "express": "^4.14.0",
     "feedme": "latest",
     "iconv-lite": "latest",

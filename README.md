@@ -1,5 +1,5 @@
-# OnTheWall (Mirror Mirror 2 Module Development)
-Platform agnostic test harness for MirrorMirror RaspPi project to aide in building custom modules.
+# OnTheWall (MirrorMirror<sup>2</sup>  Module Development)
+Platform agnostic test harness for MirrorMirror<sup>2</sup> RaspPi project to aide in building custom modules.
 
 
 ## Getting Started on Windows

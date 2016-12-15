@@ -7,7 +7,7 @@ Platform agnostic test harness for MirrorMirror RaspPi project to aide in buildi
 
 ### If you want to be a contributor or easily get updates - Install git
 - Clone the project
-  - git clone 
+  - git clone https://github.com/plangdon/OnTheWall.git
 
 ### If you just want to download and play
 - Download zip

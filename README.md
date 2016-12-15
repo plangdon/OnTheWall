@@ -3,7 +3,7 @@ Platform agnostic test harness for MirrorMirror RaspPi project to aide in buildi
 
 
 ## Getting Started on Windows
-- Get a good editor - I like atom.io
+- Get a good editor - I like https://atom.io/
 
 ### If you want to be a contributor or easily get updates - Install git
 - Clone the project

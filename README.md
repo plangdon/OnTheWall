@@ -21,10 +21,10 @@ Platform agnostic test harness for MirrorMirror RaspPi project to aide in buildi
 - Hook up a monitor and a keyboard/mouse
 - Configure your wifi 
 - Launch xterm -> Applications > Accessories > XTerm
-- type: sudo su
-- enter your password
-- type: ifconfig
-- Get ip address
+  - type: sudo su
+   - enter your password
+  - type: ifconfig
+   - Get ip address
 
 
 ## SSH to your Orange Pi

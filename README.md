@@ -6,7 +6,8 @@ Platform agnostic test harness for MirrorMirror RaspPi project to aide in buildi
 ### Get a good editor - I like atom.io
 
 ### If you want to be a contributor or easily get updates - Install git
-#### Clone the project
+- Clone the project
+  - git clone 
 
 ### If you just want to download and play
 - Download zip

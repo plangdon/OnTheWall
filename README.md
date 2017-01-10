@@ -2,7 +2,6 @@
 Test harness and module template for MirrorMirror<sup>2</sup> project to aide in building custom modules.
 
 
-
 ## Getting Started on Windows
 - Get a good editor - I like https://atom.io/
 
@@ -15,7 +14,7 @@ Test harness and module template for MirrorMirror<sup>2</sup> project to aide in
 
 
 
-## Connection to your Orange Pi
+## Connection to your Orange Pi (For Hackster Team)
 - Hook up a monitor and a keyboard/mouse
 - Configure your wifi
 - Launch xterm -> Applications > Accessories > XTerm

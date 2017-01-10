@@ -1,5 +1,6 @@
 # OnTheWall (MirrorMirror<sup>2</sup>  Module Development)
-Platform agnostic test harness for MirrorMirror<sup>2</sup> RaspPi project to aide in building custom modules.
+Test harness and module template for MirrorMirror<sup>2</sup> project to aide in building custom modules.
+
 
 
 ## Getting Started on Windows
@@ -14,12 +15,9 @@ Platform agnostic test harness for MirrorMirror<sup>2</sup> RaspPi project to ai
 
 
 
-
-
-
 ## Connection to your Orange Pi
 - Hook up a monitor and a keyboard/mouse
-- Configure your wifi 
+- Configure your wifi
 - Launch xterm -> Applications > Accessories > XTerm
   - type: sudo su
    - enter your password
@@ -35,8 +33,8 @@ Platform agnostic test harness for MirrorMirror<sup>2</sup> RaspPi project to ai
 Navigate to ~/OnTheWall
 - Pull down updates:
  - git pull
- 
- 
+
+
 
 
 

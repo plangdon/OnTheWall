@@ -93,6 +93,15 @@ var Module = Class.extend({
 	 * argument sender Module - The module that sent the notification.
 	 */
 	notificationReceived: function(notification, payload, sender) {
+	
+		// Modification for listening for show/hide notifications
+		if (notification===this.name + ':Hide'||notification==='all:Hide'){
+			this.hide(1000);
+		}
+		else if (notification===this.name + ':Show'||notification==='all:Show'){
+			this.show(1000);
+		}
+		
 		if (sender) {
 			Log.log(this.name + " received a module notification: " + notification + " from sender: " + sender.name);
 		} else {

@@ -11,7 +11,7 @@ Module.register("hackster",{
 
 	// Default module config.
 	defaults: {
-		text: "Hackster Rocks!"
+		text: "OnTheWall - Smart Home Hub"
 	},
 
 	// Override dom generator.

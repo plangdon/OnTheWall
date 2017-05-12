@@ -9,14 +9,11 @@
 
 var defaultModules = [
 	"alert",
-	"calendar",
 	"clock",
-	"compliments",
-	"currentweather",
-	"hackster",
-	"helloworld",
-	"newsfeed",
-	"weatherforecast"
+	"smarthome",
+	"smarthomethermo",
+	"MMM-mqtt_command",
+	"hackster"
 ];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
